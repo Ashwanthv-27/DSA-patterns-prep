@@ -1,125 +1,73 @@
-# DSA Patterns — Interview Preparation
+# DSA Patterns Preparation
 
-A structured journey through Data Structures & Algorithms for coding interviews.
+A collection of Data Structures and Algorithms problems solved as part of my preparation.
 
-This repository documents not just my solutions, but **how I approach problems, recognize patterns, improve brute-force solutions, and arrive at optimal solutions.**
+The focus of this repository is not just solving problems, but understanding how to approach them, recognize common patterns, compare different solutions, and improve from a brute-force approach to an efficient one.
 
-The goal is to build problem-solving intuition rather than memorize solutions.
+## Approach
 
----
+For each problem, I try to go through the following process:
 
-## 🧠 How I Solve Problems
+1. Understand the problem and constraints
+2. Come up with a straightforward solution
+3. Analyze its time and space complexity
+4. Identify the bottleneck
+5. Look for a suitable data structure or algorithmic pattern
+6. Develop an optimized solution
+7. Compare the different approaches
+8. Document the reasoning and lessons learned
 
-For every problem, I try to follow this process:
+## Progress
 
-1. Understand the problem
-2. Identify the inputs, outputs, and constraints
-3. Think of the most straightforward solution
-4. Analyze its time and space complexity
-5. Identify the bottleneck
-6. Look for a relevant DSA pattern
-7. Improve the solution
-8. Compare different approaches
-9. Implement the optimal solution
-10. Record the key lesson and pattern
+| Category            | Problems Solved | Status      |
+| ------------------- | --------------: | ----------- |
+| Arrays              |               0 | In Progress |
+| Hashing             |               1 | In Progress |
+| Two Pointers        |               0 | Not Started |
+| Sliding Window      |               0 | Not Started |
+| Prefix Sum          |               0 | Not Started |
+| Binary Search       |               0 | Not Started |
+| Linked List         |               0 | Not Started |
+| Stack               |               0 | Not Started |
+| Queue               |               0 | Not Started |
+| Trees               |               0 | Not Started |
+| Heap                |               0 | Not Started |
+| Graphs              |               0 | Not Started |
+| Backtracking        |               0 | Not Started |
+| Greedy              |               0 | Not Started |
+| Dynamic Programming |               0 | Not Started |
 
----
+## Problems Solved
 
-## 📚 Patterns
+### Hashing
 
-| Pattern             | Problems | Status         |
-| ------------------- | -------: | -------------- |
-| Arrays              |        0 | 🟡 In Progress |
-| Hashing             |        1 | 🟡 In Progress |
-| Two Pointers        |        0 | ⚪ Not Started  |
-| Sliding Window      |        0 | ⚪ Not Started  |
-| Prefix Sum          |        0 | ⚪ Not Started  |
-| Binary Search       |        0 | ⚪ Not Started  |
-| Linked List         |        0 | ⚪ Not Started  |
-| Stack               |        0 | ⚪ Not Started  |
-| Queue               |        0 | ⚪ Not Started  |
-| Trees               |        0 | ⚪ Not Started  |
-| Heap                |        0 | ⚪ Not Started  |
-| Graphs              |        0 | ⚪ Not Started  |
-| Backtracking        |        0 | ⚪ Not Started  |
-| Greedy              |        0 | ⚪ Not Started  |
-| Dynamic Programming |        0 | ⚪ Not Started  |
+* [Two Sum](./Hashing/001-two-sum/) — Hash Map / Complement Lookup
 
----
-
-## 📈 Progress
-
-Problems solved: **1**
-
-### Difficulty
-
-* Easy: 1
-* Medium: 0
-* Hard: 0
-
----
-
-## 🔑 Patterns Learned
-
-* Hash Map / Complement Lookup
-
----
-
-## 🛠️ Languages
+## Languages
 
 * Python
 
----
+## Repository Structure
 
-## 🎯 Goal
+Problems are organized based on the primary pattern or technique used to solve them.
 
-Build strong DSA problem-solving skills for technical interviews by understanding:
-
-* Why a solution works
-* When a particular pattern applies
-* How to optimize brute-force solutions
-* Time and space complexity
-* Common edge cases
-* Common interview traps
-
----
-
-## 📂 Repository Structure
-
-Problems are organized primarily by the **pattern or technique used to solve them**.
+```text
+Hashing/
+└── 001-two-sum/
+    ├── README.md
+    └── solution.py
+```
 
 Each problem contains:
 
-```text
-problem/
-├── README.md       # Problem, reasoning, approaches and lessons
-└── solution.py     # Python implementation
-```
-
----
-
-## 📝 Problem Documentation
-
-Each problem documents:
-
-* Problem statement
-* Examples
-* Initial intuition
-* Brute-force approach
-* Bottleneck
-* Optimized approach
-* Pattern recognition
+* Problem description
+* Initial approach
+* Brute-force solution
+* Optimization process
 * Final solution
-* Time complexity
-* Space complexity
+* Complexity analysis
 * Edge cases
 * Common mistakes
-* Key takeaway
+* Notes on the pattern used
 
----
-
-## 🚀 Progress Over Perfection
-
-This repository is continuously updated as I learn and solve more problems.
-
-The focus is not simply on the number of problems solved, but on developing **pattern recognition and problem-solving intuition**.
+This repository will be updated as I continue working through different DSA patterns and interview problems.
